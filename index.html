@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="CoinCarrière — منصة التوظيف الذكي المتخصصة في قطاع العقار. فرز ذكي للسير الذاتية ومرشحون مؤهلون خلال 48 ساعة." />
+  <title>CoinCarrière — منصة التوظيف الذكي في العقار</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Raleway:wght@500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --blue-950:#06283a; --blue-900:#0b3f59; --blue-800:#16498c; --blue-600:#1875bb;
+      --green:#ccfa04; --green-2:#dcfe11; --white:#ffffff; --ink:#10212b; --muted:#5d7180;
+      --line:rgba(11,63,89,.14); --shadow:0 24px 70px rgba(6,40,58,.18); --radius:28px;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Montserrat,Arial,sans-serif;color:var(--ink);background:#f8fbfd;line-height:1.75;overflow-x:hidden}
+    a{text-decoration:none;color:inherit} img{max-width:100%;display:block}.container{width:min(1180px,calc(100% - 36px));margin:auto}.ltr{direction:ltr}.section{padding:94px 0}.eyebrow{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-weight:800;font-size:13px;color:var(--blue-900);background:rgba(255,255,255,.86);backdrop-filter:blur(10px)}.dot{width:9px;height:9px;border-radius:999px;background:var(--green);box-shadow:0 0 18px var(--green)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;padding:15px 24px;font-weight:900;transition:.25s ease;border:1px solid transparent;white-space:nowrap}.btn-primary{background:linear-gradient(135deg,var(--green),var(--green-2));color:#071923;box-shadow:0 0 0 7px rgba(204,250,4,.12),0 20px 38px rgba(83,111,0,.22)}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 0 0 9px rgba(204,250,4,.16),0 26px 45px rgba(83,111,0,.3)}.btn-ghost{background:rgba(255,255,255,.10);color:white;border-color:rgba(255,255,255,.18)}.btn-ghost:hover{background:rgba(255,255,255,.18)}
+    .nav{position:sticky;top:0;z-index:50;background:rgba(248,251,253,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(11,63,89,.09)}.nav-inner{height:82px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:14px}.brand img{width:188px;height:auto}.nav-links{display:flex;align-items:center;gap:20px;font-weight:800;font-size:14px;color:var(--blue-900)}
+    .hero{position:relative;isolation:isolate;padding:76px 0 58px;min-height:calc(100vh - 82px);display:grid;align-items:center;background:radial-gradient(circle at 15% 5%,rgba(24,117,187,.22),transparent 34%),linear-gradient(135deg,#06283a 0%,#0b3f59 47%,#16498c 100%);color:white;overflow:hidden}.hero:before{content:"";position:absolute;inset:-20%;background:linear-gradient(115deg,transparent 0 35%,rgba(204,250,4,.09) 36% 44%,transparent 45% 100%);transform:rotate(-7deg);z-index:-1}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:46px;align-items:center}.hero h1{font-size:clamp(40px,6vw,78px);line-height:1.08;margin:24px 0 20px;letter-spacing:-1.8px}.hero .lead{font-size:clamp(18px,2vw,24px);color:rgba(255,255,255,.86);max-width:720px;margin:0 0 30px}.highlight{color:var(--green)}.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin:28px 0 22px}.trust-row{display:flex;gap:14px;flex-wrap:wrap;color:rgba(255,255,255,.82);font-weight:700;font-size:14px}.trust-row span{display:inline-flex;align-items:center;gap:8px}.check{width:21px;height:21px;border-radius:50%;display:inline-grid;place-items:center;background:rgba(204,250,4,.16);color:var(--green);font-weight:900}.hero-card{background:rgba(255,255,255,.96);color:var(--ink);border-radius:36px;padding:22px;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.7);position:relative}.hero-card:after{content:"48h";position:absolute;left:22px;top:-28px;background:var(--green);color:#071923;border-radius:22px;padding:12px 18px;font-size:34px;font-weight:900;box-shadow:0 18px 40px rgba(204,250,4,.22)}.dash-head{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-bottom:18px}.status{background:#eaf7ff;color:var(--blue-800);border-radius:999px;padding:7px 12px;font-weight:900;font-size:12px}.metric-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}.metric{background:#f3f8fb;border:1px solid var(--line);border-radius:20px;padding:16px}.metric strong{display:block;font-size:28px;color:var(--blue-900);line-height:1}.candidate{display:flex;align-items:center;gap:12px;padding:13px;border:1px solid var(--line);border-radius:18px;margin-top:10px;background:white}.avatar{width:44px;height:44px;border-radius:15px;display:grid;place-items:center;background:linear-gradient(135deg,var(--blue-600),var(--blue-900));color:white;font-weight:900}.tag{margin-right:auto;border-radius:999px;background:rgba(204,250,4,.22);padding:5px 10px;font-weight:900;font-size:12px;color:#354700}
+    .stats{margin-top:-38px;position:relative;z-index:4}.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.stat{background:white;border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:0 12px 35px rgba(6,40,58,.08)}.stat strong{display:block;color:var(--blue-900);font-size:36px;line-height:1;font-weight:900}.stat p{margin:8px 0 0;color:var(--muted);font-weight:700}
+    .title{max-width:780px;margin:0 auto 44px;text-align:center}.title h2{font-size:clamp(30px,4vw,52px);line-height:1.15;margin:16px 0;color:var(--blue-900);letter-spacing:-1px}.title p{color:var(--muted);font-size:18px;margin:0}.problem-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.panel{border-radius:var(--radius);padding:30px;background:white;border:1px solid var(--line);box-shadow:0 18px 45px rgba(6,40,58,.08)}.panel.dark{background:linear-gradient(135deg,var(--blue-900),var(--blue-800));color:white}.panel h3{font-size:26px;margin:0 0 16px}.list{display:grid;gap:12px;margin:0;padding:0;list-style:none}.list li{display:flex;gap:11px;align-items:flex-start;font-weight:700}.x,.ok{width:26px;height:26px;flex:0 0 26px;border-radius:50%;display:grid;place-items:center;font-weight:900}.x{background:#fff0f0;color:#d72f2f}.ok{background:rgba(204,250,4,.18);color:var(--green)}
+    .blue-band{background:linear-gradient(135deg,#06283a,#0b3f59);color:white}.blue-band .title h2,.blue-band .title p{color:white}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{border-radius:24px;padding:26px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12)}.icon{width:54px;height:54px;border-radius:18px;display:grid;place-items:center;background:rgba(204,250,4,.13);color:var(--green);font-size:24px;margin-bottom:14px}.feature h3{font-size:21px;margin:0 0 10px}.feature p{margin:0;color:rgba(255,255,255,.78)}
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:step}.step{position:relative;background:white;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 15px 40px rgba(6,40,58,.07)}.step:before{counter-increment:step;content:"0" counter(step);display:grid;place-items:center;width:48px;height:48px;border-radius:17px;background:var(--blue-900);color:var(--green);font-weight:900;margin-bottom:18px}.step h3{font-size:20px;margin:0 0 8px;color:var(--blue-900)}.step p{margin:0;color:var(--muted);font-weight:600}
+    .logos{overflow:hidden;border-radius:24px;border:1px solid var(--line);background:white;padding:18px;white-space:nowrap}.logos-track{display:inline-flex;gap:18px;animation:marquee 24s linear infinite}.logo-pill{direction:ltr;border:1px solid var(--line);border-radius:999px;padding:12px 22px;font-weight:900;color:var(--blue-900);background:#f9fcfd}@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(50%)}}
+    .testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.quote{background:white;border:1px solid var(--line);border-radius:26px;padding:28px;box-shadow:0 18px 45px rgba(6,40,58,.08)}.stars{color:#f7b500;font-size:18px;letter-spacing:2px}.quote p{font-size:17px;font-weight:700}.person{display:flex;align-items:center;gap:12px;margin-top:18px}.person small{color:var(--muted);font-weight:700}.offer{position:relative;overflow:hidden;border-radius:36px;padding:50px;background:linear-gradient(135deg,var(--blue-900),var(--blue-800));color:white;box-shadow:var(--shadow)}.offer:before{content:"";position:absolute;inset:auto -80px -110px auto;width:360px;height:360px;border-radius:50%;background:rgba(204,250,4,.14)}.offer-grid{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center}.offer h2{font-size:clamp(34px,5vw,64px);line-height:1.05;margin:12px 0}.offer p{color:rgba(255,255,255,.84);font-size:18px}.countdown{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.timebox{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);border-radius:22px;padding:20px;text-align:center}.timebox strong{font-size:34px;color:var(--green);display:block}.final-checks{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}.final-checks span{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:9px 14px;font-weight:800}.footer{padding:34px 0 94px;text-align:center;color:var(--muted);font-weight:700}.mobile-cta{display:none;position:fixed;z-index:60;left:12px;right:12px;bottom:12px;background:var(--blue-900);border:1px solid rgba(255,255,255,.2);border-radius:22px;padding:10px;box-shadow:0 18px 45px rgba(0,0,0,.2)}.mobile-cta .btn{width:100%}
+    @media(max-width:920px){.nav-links{display:none}.brand img{width:160px}.hero{padding-top:40px}.hero-grid,.problem-grid,.offer-grid{grid-template-columns:1fr}.stats-grid,.features,.steps,.testimonials{grid-template-columns:1fr 1fr}.hero-card{margin-top:22px}.section{padding:68px 0}.mobile-cta{display:block}.footer{padding-bottom:112px}}
+    @media(max-width:620px){.container{width:min(100% - 24px,1180px)}.nav-inner{height:70px}.brand img{width:145px}.hero h1{font-size:39px}.hero-actions .btn{width:100%}.stats-grid,.features,.steps,.testimonials,.metric-grid,.countdown{grid-template-columns:1fr}.panel,.offer{padding:24px;border-radius:24px}.hero-card:after{font-size:26px;top:-22px}.tag{display:none}}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="CoinCarrière">
+        <img src="assets/logo-officiel.png" alt="CoinCarrière logo officiel">
+      </a>
+      <nav class="nav-links" aria-label="Navigation">
+        <a href="#problem">المشكل</a>
+        <a href="#solution">الحل</a>
+        <a href="#how">كيفاش كيخدم</a>
+        <a href="#proof">المصداقية</a>
+      </nav>
+      <a class="btn btn-primary" href="https://coincarriere.com">ابدأ مجاناً</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow"><span class="dot"></span> قطاع العقار · توظيف ذكي · 2026</span>
+          <h1>وظّف وكلاء العقار ديالك <span class="highlight">بلا ما تضيع أسابيع</span> ففرز السير الذاتية.</h1>
+          <p class="lead">السوق فيه فرص… ولكن طريقة التوظيف التقليدية كتحرمك من أفضل الكفاءات. CoinCarrière كتعطيك مرشحين مؤهلين للعقار خلال 48 ساعة، والذكاء الاصطناعي كيدير الفرز عوضك.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://coincarriere.com">كليكي دابا — 30 يوم مجاناً</a>
+            <a class="btn btn-ghost" href="#how">شوف كيفاش كيخدم</a>
+          </div>
+          <div class="trust-row">
+            <span><b class="check">✓</b> بلا كريديت كارد</span>
+            <span><b class="check">✓</b> تسجيل في 3 دقائق</span>
+            <span><b class="check">✓</b> كفاءات جاهزة فـ48 ساعة</span>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="لوحة تتبع التوظيف">
+          <div class="dash-head">
+            <div>
+              <strong>لوحة تتبع التوظيف</strong><br>
+              <small>وكيل عقاري — الدار البيضاء</small>
+            </div>
+            <span class="status">AI Matching</span>
+          </div>
+          <div class="metric-grid">
+            <div class="metric"><strong>24</strong><small>طلبات</small></div>
+            <div class="metric"><strong>7</strong><small>مؤهلون</small></div>
+            <div class="metric"><strong>3h</strong><small>منذ النشر</small></div>
+          </div>
+          <div class="candidate"><div class="avatar">SA</div><div><strong>سلمى الأصفهاني</strong><br><small>5 سنوات خبرة فالمبيعات</small></div><span class="tag">جديد</span></div>
+          <div class="candidate"><div class="avatar">YB</div><div><strong>يوسف بلحاج</strong><br><small>3 سنوات خبرة فوكالات الكراء</small></div><span class="tag">مقابلة</span></div>
+          <div class="candidate"><div class="avatar">NK</div><div><strong>نادية الكريمي</strong><br><small>7 سنوات خبرة فإدارة الملفات</small></div><span class="tag">مختار</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat"><strong>+451</strong><p>مسؤول توظيف كيثقو فينا</p></div>
+        <div class="stat"><strong>48h</strong><p>متوسط استقبال المرشحين</p></div>
+        <div class="stat"><strong>3×</strong><p>كفاءات مؤهلة أكثر</p></div>
+        <div class="stat"><strong>4.9</strong><p>تقييم مسؤولي HR</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="problem">
+      <div class="container">
+        <div class="title">
+          <span class="eyebrow"><span class="dot"></span> TOF — الوعي بالمشكل</span>
+          <h2>المشكل ماشي فالسوق… المشكل فطريقة التوظيف.</h2>
+          <p>مسؤولو الموارد البشرية كيضيعو الوقت ففرز السير الذاتية يدوياً، وكيضيعو معهم أفضل المرشحين.</p>
+        </div>
+        <div class="problem-grid">
+          <div class="panel">
+            <h3>❌ قبل — الطريقة القديمة</h3>
+            <ul class="list">
+              <li><span class="x">×</span>ساعات طويلة ففرز السير الذاتية يدوياً</li>
+              <li><span class="x">×</span>أكثر من 200 CV بدون فلترة حقيقية</li>
+              <li><span class="x">×</span>مرشحون دون مستوى قطاع العقار</li>
+              <li><span class="x">×</span>3 أسابيع أو أكثر للمنصب الواحد</li>
+              <li><span class="x">×</span>تكلفة توظيف مرتفعة وقرارات بطيئة</li>
+            </ul>
+          </div>
+          <div class="panel dark">
+            <h3>✅ بعد — CoinCarrière</h3>
+            <ul class="list">
+              <li><span class="ok">✓</span>الذكاء الاصطناعي يفرز السير عوضك</li>
+              <li><span class="ok">✓</span>ترشيح حسب خبرة العقار، المبيعات، وإدارة الملفات</li>
+              <li><span class="ok">✓</span>مرشحون مؤهلون خلال 48 ساعة</li>
+              <li><span class="ok">✓</span>قرار واضح للفريق كامل بلا صداع الإيميلات</li>
+              <li><span class="ok">✓</span>توظيف أسرع وتكلفة أقل بـ3×</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section blue-band" id="solution">
+      <div class="container">
+        <div class="title">
+          <span class="eyebrow"><span class="dot"></span> MOF — الحل والشرح</span>
+          <h2>ودّع الفرز اليدوي… مرحباً بالفرز الذكي.</h2>
+          <p>CoinCarrière منصة متخصصة فالعقار: كتحلل السير، كترتب المرشحين، وكتخليك تشوف غير الناس اللي عندهم fit حقيقي.</p>
+        </div>
+        <div class="features">
+          <article class="feature"><div class="icon">⚡</div><h3>فرز وتحليل بالذكاء الاصطناعي</h3><p>تقييم أوتوماتيكي للسير الذاتية وترتيب دقيق حسب ملاءمة المنصب.</p></article>
+          <article class="feature"><div class="icon">🏢</div><h3>تخصص العقار</h3><p>فلترة حسب تجربة العقار، المبيعات، الكراء، وإدارة الملفات.</p></article>
+          <article class="feature"><div class="icon">⏱️</div><h3>مرشحون فـ48 ساعة</h3><p>استقبل كفاءات جاهزة للعمل بسرعة، بدل انتظار أسابيع.</p></article>
+          <article class="feature"><div class="icon">🤝</div><h3>قرار جماعي واضح</h3><p>ملاحظات الفريق، حالة المرشح، والبايبلاين كامل فبلاصة وحدة.</p></article>
+          <article class="feature"><div class="icon">📅</div><h3>مقابلات مدمجة</h3><p>حدد المواعيد وتتبع المقابلات بلا تشتت ولا ضياع فالإيميلات.</p></article>
+          <article class="feature"><div class="icon">📊</div><h3>إحصائيات فالحين</h3><p>قيس الوقت والتكلفة لكل توظيف، وحسّن كل دورة توظيف.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="container">
+        <div class="title">
+          <span class="eyebrow"><span class="dot"></span> من الفكرة للنتيجة</span>
+          <h2>وظّف بذكاء في 4 خطوات بسيطة.</h2>
+          <p>إلى كنتي كتقول ما عندكش الوقت، هاد الحل كيوفر عليك حتى وقت الإيميل فالتوظيف.</p>
+        </div>
+        <div class="steps">
+          <article class="step"><h3>انشر الإعلان</h3><p>صف المنصب في 5 دقائق، والمنشور يخرج مباشرة.</p></article>
+          <article class="step"><h3>AI يفرز السير</h3><p>المنصة تحلل السير وتطلع لك المرشحين الأقرب للمنصب.</p></article>
+          <article class="step"><h3>قيّم وحاور</h3><p>شوف البايبلاين، الملاحظات، والمقابلات فلوحة واحدة.</p></article>
+          <article class="step"><h3>وظّف</h3><p>اختار المرشح المناسب، وسد المنصب بثقة وسرعة.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="proof">
+      <div class="container">
+        <div class="title">
+          <span class="eyebrow"><span class="dot"></span> BOF — المصداقية والقرار</span>
+          <h2>+451 شركة ووكالة عقار وثقوا في CoinCarrière.</h2>
+          <p>الوكالات الرائدة في قطاع العقار غيّرت طريقة توظيفها وبدأت تختار بدقة وسرعة.</p>
+        </div>
+        <div class="logos" aria-label="شركات وثقت في CoinCarrière">
+          <div class="logos-track ltr">
+            <span class="logo-pill">Menzeh Immo</span><span class="logo-pill">Atlas Realty</span><span class="logo-pill">Immogroup</span><span class="logo-pill">CasaImmo</span><span class="logo-pill">Premium Invest</span><span class="logo-pill">Ryad Property</span><span class="logo-pill">Rabat Estates</span><span class="logo-pill">Fès Patrimoine</span><span class="logo-pill">Kenzi Résidences</span><span class="logo-pill">Souss Immo</span>
+            <span class="logo-pill">Menzeh Immo</span><span class="logo-pill">Atlas Realty</span><span class="logo-pill">Immogroup</span><span class="logo-pill">CasaImmo</span><span class="logo-pill">Premium Invest</span>
+          </div>
+        </div>
+        <div style="height:24px"></div>
+        <div class="testimonials">
+          <article class="quote"><div class="stars">★★★★★</div><p>«استقبلت 6 مرشحين مؤهلين خلال 24 ساعة من نشر الإعلان. CoinCarrière غيّر طريقة عملنا بالكامل.»</p><div class="person"><div class="avatar">YB</div><div><strong>يوسف بن موسى</strong><br><small>مدير وكالة Atlas Realty</small></div></div></article>
+          <article class="quote"><div class="stars">★★★★★</div><p>«في 48 ساعة كان عندي 3 مرشحين ممتازين. ما توقعتش التوظيف يكون سهل هكذا.»</p><div class="person"><div class="avatar">FH</div><div><strong>فاطمة الزهراء حريز</strong><br><small>مسؤولة HR — Immogroup</small></div></div></article>
+          <article class="quote"><div class="stars">★★★★★</div><p>«المنصة مخصصة للعقار — المرشحون عندهم خبرة حقيقية فالقطاع. ما عدتش نضيع وقتي.»</p><div class="person"><div class="avatar">KS</div><div><strong>كريم شفيق</strong><br><small>صاحب وكالة CasaImmo</small></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="offer">
+      <div class="container">
+        <div class="offer">
+          <div class="offer-grid">
+            <div>
+              <span class="eyebrow"><span class="dot"></span> عرض خاص محدود</span>
+              <h2>توظيفك القادم يبدأ من هنا.</h2>
+              <p>جرب CoinCarrière لمدة 30 يوم مجاناً. بلا كريديت كارد، بلا التزام، وسجّل أول إعلان عقاري في أقل من 5 دقائق.</p>
+              <div class="final-checks">
+                <span>✓ 30 يوم مجاناً</span><span>✓ تسجيل في 3 دقائق</span><span>✓ مرشحون في 48 ساعة</span>
+              </div>
+              <a class="btn btn-primary" href="https://coincarriere.com">كليكي دابا — ابدأ مجاناً</a>
+            </div>
+            <div class="countdown" aria-label="عرض محدود">
+              <div class="timebox"><strong>23</strong><span>ساعة</span></div>
+              <div class="timebox"><strong>47</strong><span>دقيقة</span></div>
+              <div class="timebox"><strong>12</strong><span>ثانية</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="mobile-cta">
+    <a class="btn btn-primary" href="https://coincarriere.com">ابدأ مجاناً — كفاءات فـ48 ساعة</a>
+  </div>
+
+  <footer class="footer">
+    <div class="container">© 2026 CoinCarrière — منصة التوظيف الذكي في العقار</div>
+  </footer>
+</body>
+</html>
